@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
 * {
   margin: 0;
@@ -26,9 +26,9 @@ body, input, button {
   font-size: 14px;
 }
   
-  #cadastro {
-    width: 400px;
-    height: 400px;
+  #inserirHorario {
+    width: 428px;
+    height: 500px;
     background: #641D46;
     box-shadow: 5px 5px 20px rgba(208, 57, 129, 0.5);
     border-radius: 10px;
@@ -46,9 +46,23 @@ body, input, button {
       color: #FFFFFF;
   }
 
-  input {
+  #form input {
     padding-top: 16px;
     width: 100%;
+    height: 30px;
+    color: #333;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 900;
+    border: 1px solid #dcdce6;
+    border-radius: 3px;
+    padding: 0 24px;
+  }
+
+  #clockandate input{
+    padding-top: 16px;
+    width: 180px;
     height: 30px;
     color: #333;
     font-family: Roboto;
@@ -58,6 +72,9 @@ body, input, button {
     border-radius: 3px;
     padding: 0 24px;
   }
+  #clockandate {
+    float:left;
+  }
 
   button {
     width: 100%;
@@ -66,7 +83,7 @@ body, input, button {
     border: 0;
     border-radius: 8px;
     color: #FFF;
-    font-weight: 700;
+    font-weight: bold;
     margin-top: 16px;
     font-family: Roboto;
     display: inline-block;
