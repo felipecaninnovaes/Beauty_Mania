@@ -1,0 +1,133 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: row;
+}
+form {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 16px;
+      padding-bottom: 40px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      color: #FFFFFF;
+  }
+.grid-container {
+    display: grid-row-gap;
+    width: 98%;
+    height: 100%;
+  }
+
+span#button {
+  float: right;
+}
+
+#dadosClientes {
+  background-color: #FFFFFF;
+  padding: 22px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+a#b2{
+  background: #FFB52D;
+  border-radius: 8px;
+  color: #FFF;
+  font-weight: bold;
+  font-family: Roboto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  transition: filter 0.2s;
+  cursor: pointer;
+  line-height: 43px;
+  padding: 10px;
+}
+
+a#b1{
+  background: #D03981;
+  border-radius: 8px;
+  color: #FFF;
+  font-weight: bold;
+  font-family: Roboto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  transition: filter 0.2s;
+  cursor: pointer;
+  line-height: 43px;
+  padding: 10px;
+}
+
+
+a#b3{
+  background: #D03981;
+  border-radius: 8px;
+  color: #FFF;
+  font-weight: bold;
+  font-family: Roboto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  transition: filter 0.2s;
+  cursor: pointer;
+  line-height: 43px;
+  padding: 10px;
+}
+a#b4{
+  background: #D03981;
+  border-radius: 8px;
+  color: #FFF;
+  font-weight: bold;
+  font-family: Roboto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  transition: filter 0.2s;
+  cursor: pointer;
+  line-height: 43px;
+  padding: 10px;
+}
+input#button2 {
+  background: #D03981;
+  border-radius: 8px;
+  color: #FFF;
+  font-weight: bold;
+  font-family: Roboto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  transition: filter 0.2s;
+  cursor: pointer;
+  padding: 10px;
+  padding-left: 10px;
+  border: none;
+}
+
+span#tx1 {
+  font-size: 20px;
+}
+
+span#tx2 {
+  font-size: 20px;
+  color: #8B8B8B;
+}
+
+span#search {
+  float: right;
+  padding-left: 10px;
+}
+
+input#search {
+  padding: 20px;
+  padding-right: 200px;
+  border-radius: 8px;
+  border: none;
+}
+
+#space {
+  padding: 10px;
+}
